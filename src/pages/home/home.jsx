@@ -18,7 +18,7 @@ import Spinner from "../../components/spinner/spinner.component";
 
 import { useHomeFetch } from "../../hooks/useHomeFetch";
 
-const HomePage = () => {
+const Home = () => {
   const [
     {
       state: { movies, heroImage, currentPage, totalPages },
@@ -81,4 +81,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
