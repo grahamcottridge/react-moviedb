@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledHeader = styled.div`
   background: #1c1c1c;
