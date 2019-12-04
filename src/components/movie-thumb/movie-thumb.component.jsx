@@ -1,7 +1,15 @@
 import React from "react";
 
-import "./movie-thumb.styles";
+import { StyledMovieThumb } from "./movie-thumb.styles";
 
-const MovieThumb = () => <div>MovieThumb</div>;
+const MovieThumb = ({ image, movieId, clickable }) => (
+  <StyledMovieThumb>
+    {clickable ? (
+      <img className="clickable" src={image} alt="moviethumb" />
+    ) : (
+      <img src={image} alt="moviethumb" />
+    )}
+  </StyledMovieThumb>
+);
 
 export default MovieThumb;
