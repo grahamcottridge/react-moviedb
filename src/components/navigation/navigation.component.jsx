@@ -1,6 +1,6 @@
 import React from "react";
 
-import { StyledNavigation } from "./actor.styles";
+import { StyledNavigation } from "./navigation.styles";
 
 const Navigation = () => <div>Navigation</div>;
 
