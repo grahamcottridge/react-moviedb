@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledActor = styled.div`
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   color: #fff;
-  background: #1c1c1c;
-  border-radius: 20px;
-  padding: 5px;
+  background: #777;
+  border-radius: 15px;
+  padding: 3px;
   text-align: center;
 
   img {
