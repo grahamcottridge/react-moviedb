@@ -18,7 +18,7 @@ export const StyledSearchBarContent = styled.div`
   background: #fdfffc;
   /* background: #353535; */
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 40px;
   position: relative;
   color: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
