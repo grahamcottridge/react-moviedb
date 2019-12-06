@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledLoadMoreBtn = styled.button`
-  background: #494949;
+  background: #353535;
   width: 25%;
   min-width: 200px;
   height: 70px;

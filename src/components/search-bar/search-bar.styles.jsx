@@ -7,7 +7,6 @@ export const StyledSearchBar = styled.div`
   /* background: #b80c09; */
   padding: 25px 20px 0px 20px;
   box-sizing: border-box;
-
   color: #fff;
 `;
 
