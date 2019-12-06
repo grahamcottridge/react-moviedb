@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const StyledActor = styled.div`
   font-family: "Abel", sans-serif;
-  color: #fff;
-  background: #777;
-  border-radius: 15px;
-  padding: 3px;
+  color: white;
+  background: #353535;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 0px;
   text-align: center;
 
   img {
@@ -13,7 +14,7 @@ export const StyledActor = styled.div`
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 
   .actor-name {

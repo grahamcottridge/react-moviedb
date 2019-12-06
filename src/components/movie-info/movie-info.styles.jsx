@@ -1,11 +1,12 @@
-import styled from 'styled-components';
-import { IMAGE_BASE_URL, BACKDROP_SIZE } from '../../config';
+import styled from "styled-components";
+import { IMAGE_BASE_URL, BACKDROP_SIZE } from "../../config";
 
 export const StyledMovieInfo = styled.div`
-  background: ${props =>
-    props.backdrop
-      ? `url('${IMAGE_BASE_URL}${BACKDROP_SIZE}${props.backdrop}')`
-      : '#000'};
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    ${props =>
+      props.backdrop
+        ? `url('${IMAGE_BASE_URL}${BACKDROP_SIZE}${props.backdrop}')`
+        : "#000"};
   background-size: cover !important;
   background-position: center !important;
   width: 100%;
@@ -17,8 +18,8 @@ export const StyledMovieInfo = styled.div`
     max-width: 1280px;
     min-height: 450px;
     margin: 0 auto;
-    background: rgb(0, 0, 0, 0.7);
-    border-radius: 20px;
+    background: rgb(53, 53, 53, 0.6);
+    border-radius: 5px;
     position: relative;
   }
 
@@ -38,7 +39,7 @@ export const StyledMovieInfo = styled.div`
     overflow: hidden;
 
     h1 {
-      font-family: 'Abel', sans-serif;
+      font-family: "Abel", sans-serif;
       font-size: 48px;
       margin: 0;
 
@@ -54,7 +55,7 @@ export const StyledMovieInfo = styled.div`
     }
 
     p {
-      font-family: 'Abel', sans-serif;
+      font-family: "Abel", sans-serif;
       font-size: 18px;
       line-height: 26px;
     }

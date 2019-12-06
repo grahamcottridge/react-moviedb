@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledMovieThumb = styled.div`
   img {
@@ -7,7 +7,8 @@ export const StyledMovieThumb = styled.div`
     /* max-height: 350px; */
     transition: all 0.3s;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 
     :hover {
       opacity: 0.8;
