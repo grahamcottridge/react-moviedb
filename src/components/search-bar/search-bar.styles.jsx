@@ -27,7 +27,7 @@ export const StyledSearchBarContent = styled.div`
     position: absolute;
     left: 20px;
     top: 12px;
-    color: #353535;
+    color: #494949;
     z-index: 1000;
   }
 

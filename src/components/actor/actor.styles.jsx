@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledActor = styled.div`
   font-family: "Abel", sans-serif;
   color: white;
-  background: #353535;
+  background: #494949;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 0px;

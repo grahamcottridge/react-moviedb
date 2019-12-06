@@ -5,8 +5,8 @@ export const StyledNavigation = styled.div`
   align-items: center;
   width: 100%;
   height: 70px;
-  background: #353535;
-  color: #fff;
+  background: #494949;
+  color: white;
 
   .navigation-content {
     max-width: 1280px;
@@ -18,7 +18,7 @@ export const StyledNavigation = styled.div`
       font-family: "Abel", sans-serif;
       font-size: 22px;
       float: left;
-      color: #fff;
+      color: white;
       padding-right: 10px;
       text-decoration: none;
 

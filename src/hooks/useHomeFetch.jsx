@@ -34,7 +34,7 @@ export const useHomeFetch = () => {
 
   useEffect(() => {
     fetchMovies(POPULAR_BASE_URL);
-  });
+  }, []);
 
   return [{ state, loading, error }, fetchMovies];
 };
