@@ -19,6 +19,7 @@ import Spinner from "../../components/spinner/spinner.component";
 import { useHomeFetch } from "../../hooks/useHomeFetch";
 
 const Home = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   const [
     {
       state: { movies, heroImage, currentPage, totalPages },
@@ -26,8 +27,7 @@ const Home = () => {
       error
     },
     fetchMovies
-  ] = useHomeFetch();
-  const [searchTerm, setSearchTerm] = useState("");
+  ] = useHomeFetch(searchTerm);
 
   const searchMovies = search => {
     const endPoint = search ? SEARCH_BASE_URL + search : POPULAR_BASE_URL;
